@@ -1,6 +1,6 @@
 {
   "name": "microauth-facebook",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Facebook oauth for micro",
   "main": "index.js",
   "scripts": {
