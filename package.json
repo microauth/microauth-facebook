@@ -1,0 +1,36 @@
+{
+  "name": "microauth-facebook",
+  "version": "0.0.1",
+  "description": "Facebook oauth for micro",
+  "main": "index.js",
+  "scripts": {
+    "example": "micro example.js",
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microauth/microauth-facebook"
+  },
+  "files": [
+    "index.js"
+  ],
+  "author": "Dima Paloskin",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-prettier": "^1.6.0",
+    "xo": "^0.18.1"
+  },
+  "peerDependencies": {
+    "micro": "^7.3.2"
+  },
+  "dependencies": {
+    "micro-redirect": "^1.0.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "uuid": "^3.0.1"
+  },
+  "xo": {
+    "spaces": 2,
+    "extends": "prettier"
+  }
+}
