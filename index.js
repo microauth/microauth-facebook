@@ -77,6 +77,8 @@ const microAuthFacebook = ({ appId, appSecret, fields = 'name,email,cover', call
         return fn(req, res, ...args);
       }
     }
+
+    return fn(req, res, ...args);
   };
 };
 
