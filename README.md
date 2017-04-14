@@ -22,7 +22,7 @@ yarn add microauth-facebook
 app.js
 ```js
 const { send } = require('micro');
-const  microAuthFacebook  = require('./');
+const  microAuthFacebook  = require('microauth-facebook');
 
 const options = {
   appId: 'APP_ID',
