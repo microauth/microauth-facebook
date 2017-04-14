@@ -1,5 +1,7 @@
 # microauth-facebook
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/microauth/microauth-facebook.svg)](https://greenkeeper.io/)
+
 > Facebook oauth for [micro](https://github.com/zeit/micro/)
 
 [![Build Status](https://travis-ci.org/microauth/microauth-facebook.svg?branch=master)](https://travis-ci.org/microauth/microauth-facebook)
