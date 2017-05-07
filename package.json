@@ -17,7 +17,7 @@
   "author": "Dima Paloskin",
   "license": "MIT",
   "devDependencies": {
-    "eslint-config-prettier": "^1.6.0",
+    "eslint-config-prettier": "^2.0.0",
     "xo": "^0.18.1"
   },
   "peerDependencies": {
