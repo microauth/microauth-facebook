@@ -21,7 +21,7 @@
     "xo": "^0.18.1"
   },
   "peerDependencies": {
-    "micro": "^7.3.2"
+    "micro": "^8.0.4"
   },
   "dependencies": {
     "micro-redirect": "^1.0.0",
