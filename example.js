@@ -6,7 +6,8 @@ const options = {
   appSecret: 'APP_SECRET',
   callbackUrl: 'http://localhost:3000/auth/facebook/callback',
   path: '/auth/facebook',
-  fields: 'name,email,cover,first_name' // Check fields list here: https://developers.facebook.com/docs/graph-api/reference/v2.8/user
+	fields: 'name,email,cover,first_name', // Check fields list here: https://developers.facebook.com/docs/graph-api/reference/v2.11/user
+	scope: 'public_profile,email'	// Check permissions list here: https://developers.facebook.com/docs/facebook-login/permissions
 };
 
 const facebookAuth = microAuthFacebook(options);
