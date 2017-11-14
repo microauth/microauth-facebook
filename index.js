@@ -6,12 +6,11 @@ const redirect = require('micro-redirect');
 const uuid = require('uuid');
 
 const provider = 'facebook';
-const apiVersion = '2.8';
 
-const microAuthFacebook = ({ appId, appSecret, fields = 'name,email,cover', callbackUrl, path = '/auth/facebook' }) => {
+const microAuthFacebook = ({ appId, appSecret, fields = 'name,email,cover', callbackUrl, path = '/auth/facebook', scope = 'public_profile,email', apiVersion = '2.11' }) => {
 
   const getRedirectUrl = state => {
-    return `https://www.facebook.com/dialog/oauth?client_id=${appId}&redirect_uri=${callbackUrl}&response_type=code&state=${state}`;
+    return `https://www.facebook.com/dialog/oauth?client_id=${appId}&redirect_uri=${callbackUrl}&response_type=code&state=${state}&scope=${scope}`;
   };
 
   const getAccessTokenUrl = code => {
