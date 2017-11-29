@@ -7,6 +7,8 @@ const uuid = require('uuid');
 
 const provider = 'facebook';
 
+const states = [];
+
 const microAuthFacebook = ({ appId, appSecret, fields = 'name,email,cover', callbackUrl, path = '/auth/facebook', scope = 'public_profile,email', apiVersion = '2.11' }) => {
 
   const getRedirectUrl = state => {
@@ -20,8 +22,7 @@ const microAuthFacebook = ({ appId, appSecret, fields = 'name,email,cover', call
   const getUserInfoUrl = accessToken => {
     return `https://graph.facebook.com/v${apiVersion}/me?access_token=${accessToken}&fields=${fields}`;
   };
-
-  const states = [];
+  
   return fn => async (req, res, ...args) => {
 
     const { pathname, query } = url.parse(req.url);
