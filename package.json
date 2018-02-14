@@ -18,7 +18,7 @@
   "license": "MIT",
   "devDependencies": {
     "eslint-config-prettier": "^2.0.0",
-    "xo": "^0.18.1"
+    "xo": "^0.20.0"
   },
   "peerDependencies": {
     "micro": "^8.0.4"
