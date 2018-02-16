@@ -1,5 +1,5 @@
 const { send } = require('micro');
-const  microAuthFacebook  = require('./');
+const  microAuthFacebook  = require('.');
 
 const options = {
   appId: 'APP_ID',

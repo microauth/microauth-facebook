@@ -17,17 +17,17 @@
   "author": "Dima Paloskin",
   "license": "MIT",
   "devDependencies": {
-    "eslint-config-prettier": "^2.0.0",
-    "xo": "^0.18.1"
+    "eslint-config-prettier": "^2.9.0",
+    "xo": "^0.20.2"
   },
   "peerDependencies": {
-    "micro": "^8.0.4"
+    "micro": "^9.1.0"
   },
   "dependencies": {
     "micro-redirect": "^1.0.0",
-    "request": "^2.81.0",
-    "request-promise": "^4.2.0",
-    "uuid": "^3.0.1"
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "uuid": "^3.2.1"
   },
   "xo": {
     "spaces": 2,
