@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "example": "micro example.js",
-    "test": "xo"
+    "test": "xo",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -27,10 +29,12 @@
     "micro-redirect": "^1.0.0",
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
-    "uuid": "^3.2.1"
+    "uuid": "^3.2.1",
+    "snyk": "^1.319.0"
   },
   "xo": {
     "spaces": 2,
     "extends": "prettier"
-  }
+  },
+  "snyk": true
 }
